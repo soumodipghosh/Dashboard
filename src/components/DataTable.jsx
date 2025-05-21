@@ -19,9 +19,9 @@ const DataTable = () => {
       <table className="w-full border">
         <thead className="bg-gray-200">
           <tr>
-            <th className="p-2 text-left">Name</th>
-            <th className="p-2 text-left">Role</th>
-            <th className="p-2 text-left">Status</th>
+            <th className="p-2 text-left cursor-pointer">Name</th>
+            <th className="p-2 text-left cursor-pointer">Role</th>
+            <th className="p-2 text-left cursor-pointer">Status</th>
           </tr>
         </thead>
         <tbody>
