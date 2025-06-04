@@ -1,3 +1,6 @@
+import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
+
+
 import {
   Home,
   Inbox,
@@ -78,8 +81,11 @@ const AppSidebar = () => {
           <SidebarMenuItem>
             <SidebarMenuButton asChild>
               <Link href="/">
-                <Image src="/logo.svg" alt="logo" width={20} height={20} />
-                <span>Lama Dev</span>
+              <Avatar>
+                <AvatarImage src="https://github.com/shadcn.png" />
+                <AvatarFallback>CN</AvatarFallback>
+              </Avatar>
+              <h1 className="font-bold">RAJ</h1>
               </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>
